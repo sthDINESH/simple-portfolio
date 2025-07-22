@@ -14,27 +14,50 @@ body {
     background-color: #a4c2d1;
 }
 
-h1,h2{
+h1,
+h2 {
     font-family: "DM Serif Display", serif;
     color: #184f63;
 }
+
 /* Hero section */
-#hero{
+#hero {
     background: url(../images/background.webp) no-repeat 50% 70%/cover;
     background-color: lightgray;
     padding: 5% 7%;
 }
+
 /* About section */
-#about{
+#about {
     background-color: white;
 }
 
 /* Portfolio section */
-#portfolio{
+#portfolio {
     background-color: #dbdcde;
 }
 
+#portfolio .card-title {
+    color: #1f7798;
+    font-size: 1.2rem;
+}
+
+#portfolio .btn-outline-secondary:hover {
+    background-color: #1f7798;
+}
+
+#portfolio .card-text {
+    min-height: 120px;
+}
+
 /* Contact section */
-#contact{
+#contact {
     background-color: white;
+}
+
+/* Use Bootsrtap breakpoint for XL screens */
+@media screen and (min-width:1200px) {
+    #portfolio .card-text {
+        min-height: auto;
+    }
 }

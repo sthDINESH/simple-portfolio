@@ -20,6 +20,11 @@ h2 {
     color: #184f63;
 }
 
+.sharp-corners,
+.sharp-corners *{
+    border-radius: 0;
+}
+
 /* Hero section */
 #hero {
     background: url(../images/background.webp) no-repeat 50% 70%/cover;
